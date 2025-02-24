@@ -10,22 +10,14 @@ Jarl Converter is a powerful tool designed to convert Jarl files into various fo
 - **User-Friendly Interface:** Simple and intuitive design.
 - **Multi-Format Support:** Convert Jarl files to multiple output formats.
 - **Open-Source:** Free to use and modify.
-
-## Installation
-To install Jarl Converter, use the following command:
-```bash
-git clone https://github.com/jarlConvert/jarl-converter.git
-cd jarl-converter
-```
-
+-
 ## Usage
 Run the converter using:
+- python jarl_converter.py --input file.jarl --output file.json
+
+
+## Installation
+To install Jarl Converter, use the following commands:
 ```bash
-python jarl_converter.py --input file.jarl --output file.json
-```
-
-## License
-This project is licensed under the MIT License.
-
-## Contributing
-Feel free to submit issues or pull requests to improve Jarl Converter!
+git clone https://github.com/jarls-jar/jarlConvert.git
+cd jarlConvert
